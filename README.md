@@ -7,7 +7,7 @@ Previous studies examining the detection and analysis of online group polarizati
 
 Leveraging a heterogeneous graph, the model integrates multiple data types. Subsequently, Graph Neural Networks are then utilized to learn the user nodes' representations, guided by [MCR2](https://github.com/ryanchankh/mcr2) loss function, for the downstream clustering task. Utilizing a real-world dataset, our model adeptly discerns nuanced differences among users with similar stances, transcending the traditional dichotomy. Furthermore, ablation experiments demonstrate that incorporating multifaceted information enriches the semantic depth of the graph, thereby furnishing meaningful interpretations that facilitate group polarization detection.
 
-## Requirments
+## Requirements
 - Python version: `3.10.13`
 - All packages versions are listed in `package_version.txt`
 
