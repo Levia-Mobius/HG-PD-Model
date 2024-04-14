@@ -12,9 +12,26 @@ Leveraging a heterogeneous graph, the model integrates multiple data types. Subs
 - All packages versions are listed in `package_version.txt`
 
 ## Usage Instruction
-1. Code files
+1. You can refer to `Data_description.txt` for more information about `.csv` `.xlsx` `.pt` and `.npy` files in our codes.
+2. Code files
    Include 2 types:
    - Python scripts `.py` for collecting Sina Weibo's data (`Sina_crawl`) and some model-training related functions
-   - Jupyter file `.ipyn` for data processing and 
+   - Jupyter files `.ipyn` for (a) data processing; (b) all experiments in paper; and (c) visualization for HG-PD (i.e., exp3)
+   - All Jupyter files are in 2 language versions, i.e., Chinese and English, for better understanding :D
+3. Python scripts (`.py`)
+   - `Sina_crawl`: Used for crawling the data we need from Sina weibo (You can use it for crawling other Sina Weibo posts )
+   - `userInter`: HomoG-based model framework for exp2
+   - `mcr_HGPD`: HG-PD model framework for exp3
+   - `mcrLoss`: MCR2 loss function
+   - `augment`: Data augmentation
+   - `other_func`: Used for constructing membership matrix \Pi
+   - `savePara`: Used for saving loss `.csv` and model states `.pt`
+5. Jupyter files (`.ipynb`)
+   - `Data_processing`: Include all data processing steps for 3 experiments
+   - `K-Prototype`: Inmplementation of exp1 in our paper; Results are saved in `Train_record/KPrototype`
+   - `Ablation`: Implementation of exp2 with related visualizations in our paper; Training results are saved in `Train_record/Ablation` and visualizations in `Visualization`
+   - `Model`: Implementation of exp3 in our paper; Results are saved in `Train_record/Model`
+   - `Analysis_visualize`: Visualizations of exp3 in our paper; Figures are saved in `Visualization`
 
-3. 
+## Contact
+If you have any question on the code, feel free to contact [zili7472.uni.sydney.edu.au](mailto:zili7472.uni.sydney.edu.au) or ()
