@@ -1,6 +1,6 @@
 # HG-PD-Model
 This repository is the official implementation of the group polarization detection model proposed in our paper "Heterogeneous Graph-based Polarization Detection (HG-PD): 
-a Model Balancing Crude Processing with Rich Semantics"
+a Model Balancing Crude Processing with Rich Semantics".
 
 ## What is HG-PD and Why?
 Previous studies examining the detection and analysis of online group polarization have primarily concentrated on the single data type, such as self-reported measures, texts and graph structure. Typically these approaches depict group polarization as two factions with opposing viewpoints. However, such methodologies encounter limitations when applied to entertainment topics.  To fill this research gap, this paper proposes a novel self-supervised model, termed HG-PD, for polarization detection on online social media. 
@@ -19,7 +19,7 @@ Leveraging a heterogeneous graph, the model integrates multiple data types. Subs
    - Jupyter files `.ipyn` for (a) data processing; (b) all experiments in paper; and (c) visualization for HG-PD (i.e., exp3)
    - All Jupyter files are in 2 language versions, i.e., Chinese and English, for better understanding :D
 3. Python scripts (`.py`)
-   - `Sina_crawl`: Used for crawling the data we need from Sina weibo (You can use it for crawling other Sina Weibo posts )
+   - `Sina_crawl`: Used for crawling the data we need from Sina weibo (You can use it for crawling other Sina Weibo posts)
    - `userInter`: HomoG-based model framework for exp2
    - `mcr_HGPD`: HG-PD model framework for exp3
    - `mcrLoss`: MCR2 loss function
@@ -33,5 +33,7 @@ Leveraging a heterogeneous graph, the model integrates multiple data types. Subs
    - `Model`: Implementation of exp3 in our paper; Results are saved in `Train_record/Model`
    - `Analysis_visualize`: Visualizations of exp3 in our paper; Figures are saved in `Visualization`
 
+Also feel free to post any issues via Github.
+
 ## Contact
-If you have any question on the code, feel free to contact [zili7472.uni.sydney.edu.au](mailto:zili7472.uni.sydney.edu.au) or ()
+If you have any question on the code, feel free to contact [ag.wrld.s@gmail.com](mailto:ag.wrld.s@gmail.com) or [zili7472.uni.sydney.edu.au](mailto:zili7472.uni.sydney.edu.au).
