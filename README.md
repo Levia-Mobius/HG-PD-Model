@@ -9,4 +9,12 @@ Leveraging a heterogeneous graph, the model integrates multiple data types. Subs
 
 ## Requirments
 - Python version: `3.10.13`
-- All 
+- All packages versions are listed in `package_version.txt`
+
+## Usage Instruction
+1. Code files
+   Include 2 types:
+   - Python scripts `.py` for collecting Sina Weibo's data (`Sina_crawl`) and some model-training related functions
+   - Jupyter file `.ipyn` for data processing and 
+
+3. 
