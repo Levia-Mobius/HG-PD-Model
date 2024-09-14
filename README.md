@@ -32,6 +32,7 @@ Leveraging a heterogeneous graph, the model integrates multiple data types. Subs
    - `Ablation`: Implementation of exp2 with related visualizations in our paper; Training results are saved in `Train_record/Ablation` and visualizations in `Visualization`
    - `Model`: Implementation of exp3 in our paper; Results are saved in `Train_record/Model`
    - `Analysis_visualize`: Visualizations of exp3 in our paper; Figures are saved in `Visualization`
+   - `Abnormal_compar`: Model Comparisons Experiments in our paper; including 5 GAD models for GP detection and corresponding analysis & visualization (uploaded on 14/09/2024)
 6. About `Train_record`
    - We just put the best model state in `Train_record` folder rather than putting all `.pt` files (or otherwise that will be many many files...). 
    - If you are interested in all files, I will put a Google Drive link here
