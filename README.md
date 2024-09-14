@@ -36,6 +36,8 @@ Leveraging a heterogeneous graph, the model integrates multiple data types. Subs
 6. About `Train_record`
    - We just put the best model state in `Train_record` folder rather than putting all `.pt` files (or otherwise that will be many many files...). 
    - If you are interested in all files, I will put a Google Drive link here
+7. About `Abnormal_result` (uploaded on 14/09/2024)
+   - Including (a) detection results from all 5 GAD models; (b) csv file involved in analysis of all 5 GAD models
    
 Also feel free to post any issues via Github.
 
